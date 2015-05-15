@@ -1,5 +1,5 @@
 # File Parse Utility
-I built a generic file parsing app using Spring Boot and OpenCSV along with FreeMarker templates to transform the data after it is parsed by the OpenCSV. 
+I built a generic file parsing app using `Spring Boot` and `OpenCSV` along with `FreeMarker` templates to transform the data after it is parsed by the OpenCSV. 
 
 Steps to Run Project.
 ```sh
@@ -16,7 +16,7 @@ This is the configuration/properties file in order to run this app. In this file
 
 `inputFileLocation`- Where is the file being picked up by the application
 
-`templateLoadingDirectory`- This tells the app where to load the FreeMarker templates.  Usually this will not change unless deployed in a distributed environment.
+`templateLoadingDirectory`- This tells the app where to load the `FreeMarker` templates.  Usually this will not change unless deployed in a distributed environment.
 
 `fileEncoding`- What type of encoding to use with the delimited file
 
@@ -24,8 +24,8 @@ This is the configuration/properties file in order to run this app. In this file
 
 `templateName`- This tells us which FreeMarker template to use with the data being parsed.
 
-`Separator`- if you want to change the delimited value.  It can be done by using , or | or any other delimiter.
+`Separator`- if you want to change the delimited value.  It can be done by using `,` or `|` or any other delimiter.
 
-`fileparser.position.var` – This defines the position and the name of the variable we plan to use in the FTL templates.  I made avialbe 20 columns.  You will need to add more columns if your file exceeds 20 columns.
+`fileparser.position.var` – This defines the position and the name of the variable we plan to use in the `FTL` templates.  I made avialbe 20 columns.  You will need to add more columns if your file exceeds 20 columns.
 
  
